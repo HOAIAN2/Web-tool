@@ -67,7 +67,7 @@ partial class FormService
         //
         this.ButtonMySQL.Text = "Start";
         this.ButtonMySQL.Location = new System.Drawing.Point(492, 36);
-        this.ButtonMySQL.Size = new System.Drawing.Size(120, 50);
+        this.ButtonMySQL.Size = new System.Drawing.Size(112, 50);
         this.ButtonMySQL.TabIndex = 3;
         this.ButtonMySQL.Click += new System.EventHandler(ButtonMySQL_Click);
         //
@@ -75,7 +75,7 @@ partial class FormService
         //
         this.ButtonMariaDB.Text = "Start";
         this.ButtonMariaDB.Location = new System.Drawing.Point(492, 132);
-        this.ButtonMariaDB.Size = new System.Drawing.Size(120, 50);
+        this.ButtonMariaDB.Size = new System.Drawing.Size(112, 50);
         this.ButtonMariaDB.TabIndex = 4;
         this.ButtonMariaDB.Click += new System.EventHandler(ButtonMariaDB_Click);
         //
@@ -83,7 +83,7 @@ partial class FormService
         //
         this.ButtonMSSQL.Text = "Start";
         this.ButtonMSSQL.Location = new System.Drawing.Point(492, 232);
-        this.ButtonMSSQL.Size = new System.Drawing.Size(120, 50);
+        this.ButtonMSSQL.Size = new System.Drawing.Size(112, 50);
         this.ButtonMSSQL.TabIndex = 5;
         this.ButtonMSSQL.Click += new System.EventHandler(ButtonMSSQL_Click);
         //

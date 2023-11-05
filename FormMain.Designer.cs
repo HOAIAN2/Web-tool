@@ -63,7 +63,7 @@ partial class FormMain
         //
         // form
         //
-        this.Size = new System.Drawing.Size(680, 450);
+        this.Size = new System.Drawing.Size(680, 500);
         this.Text = "Web Tool";
         this.Controls.Add(this.TabControl);
         this.TabControl.ResumeLayout(false);

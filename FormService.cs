@@ -1,5 +1,7 @@
 namespace SQLServicesManager;
 using System.ServiceProcess;
+using System.Net.NetworkInformation;
+using System.Net;
 
 public partial class FormService : Form
 {
