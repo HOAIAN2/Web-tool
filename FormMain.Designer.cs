@@ -40,39 +40,39 @@ partial class FormMain
         //
         this.TabControl.Controls.Add(this.TabPagePHP);
         this.TabControl.Controls.Add(this.TabPageService);
-        this.TabControl.ItemSize = new System.Drawing.Size(134,35);
+        this.TabControl.ItemSize = new System.Drawing.Size(134, 35);
         this.TabControl.SelectedIndex = 0;
-        this.TabControl.Text =  "TabControl6";
-        this.TabControl.Location = new System.Drawing.Point(8,12);
-        this.TabControl.Size = new System.Drawing.Size(628,408);
+        this.TabControl.Text = "TabControl6";
+        this.TabControl.Location = new System.Drawing.Point(8, 12);
+        this.TabControl.Size = new System.Drawing.Size(628, 408);
         this.TabControl.TabIndex = 6;
         //
         // TabPagePHP
         //
-        this.TabPagePHP.Location = new System.Drawing.Point(4,39);
+        this.TabPagePHP.Location = new System.Drawing.Point(4, 39);
         this.TabPagePHP.TabIndex = 7;
-        this.TabPagePHP.Text =  "PHP Versions";
-        this.TabPagePHP.Size = new System.Drawing.Size(620,365);
+        this.TabPagePHP.Text = "PHP Versions";
+        this.TabPagePHP.Size = new System.Drawing.Size(620, 365);
         //
         // TabPageService
         //
-        this.TabPageService.Location = new System.Drawing.Point(4,39);
+        this.TabPageService.Location = new System.Drawing.Point(4, 39);
         this.TabPageService.TabIndex = 8;
-        this.TabPageService.Text =  "SQL Services";
-        this.TabPageService.Size = new System.Drawing.Size(536,281);
-     //
-     // form
-     //
-        this.Size = new System.Drawing.Size(684,500);
-        this.Text =  "Web Tool";
+        this.TabPageService.Text = "SQL Services";
+        this.TabPageService.Size = new System.Drawing.Size(536, 281);
+        //
+        // form
+        //
+        this.Size = new System.Drawing.Size(680, 450);
+        this.Text = "Web Tool";
         this.Controls.Add(this.TabControl);
         this.TabControl.ResumeLayout(false);
         this.TabPagePHP.ResumeLayout(false);
         this.TabPageService.ResumeLayout(false);
         this.ResumeLayout(false);
-    } 
+    }
 
-    #endregion 
+    #endregion
 
     private System.Windows.Forms.TabControl TabControl;
     private System.Windows.Forms.TabPage TabPagePHP;

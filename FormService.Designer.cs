@@ -46,75 +46,75 @@ partial class FormService
         //
         this.PictureBoxMYSQL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
         this.PictureBoxMYSQL.TabIndex = 2;
-        this.PictureBoxMYSQL.Text =  "MySQL";
-        this.PictureBoxMYSQL.Location = new System.Drawing.Point(124,40);
+        this.PictureBoxMYSQL.Text = "MySQL";
+        this.PictureBoxMYSQL.Location = new System.Drawing.Point(124, 40);
         //
         // PictureBoxMariaDB
         //
         this.PictureBoxMariaDB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
         this.PictureBoxMariaDB.TabIndex = 1;
-        this.PictureBoxMariaDB.Text =  "MariaDB";
-        this.PictureBoxMariaDB.Location = new System.Drawing.Point(124,132);
+        this.PictureBoxMariaDB.Text = "MariaDB";
+        this.PictureBoxMariaDB.Location = new System.Drawing.Point(124, 132);
         //
         // PictureBoxMSSQL
         //
         this.PictureBoxMSSQL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
         this.PictureBoxMSSQL.TabIndex = 2;
-        this.PictureBoxMSSQL.Text =  "MSSQL";
-        this.PictureBoxMSSQL.Location = new System.Drawing.Point(124,232);
+        this.PictureBoxMSSQL.Text = "MSSQL";
+        this.PictureBoxMSSQL.Location = new System.Drawing.Point(124, 232);
         //
         // ButtonMySQL
         //
-        this.ButtonMySQL.Text =  "Start";
-        this.ButtonMySQL.Location = new System.Drawing.Point(400,36);
-        this.ButtonMySQL.Size = new System.Drawing.Size(120,50);
+        this.ButtonMySQL.Text = "Start";
+        this.ButtonMySQL.Location = new System.Drawing.Point(492, 36);
+        this.ButtonMySQL.Size = new System.Drawing.Size(120, 50);
         this.ButtonMySQL.TabIndex = 3;
         this.ButtonMySQL.Click += new System.EventHandler(ButtonMySQL_Click);
         //
         // ButtonMariaDB
         //
-        this.ButtonMariaDB.Text =  "Start";
-        this.ButtonMariaDB.Location = new System.Drawing.Point(400,132);
-        this.ButtonMariaDB.Size = new System.Drawing.Size(120,50);
+        this.ButtonMariaDB.Text = "Start";
+        this.ButtonMariaDB.Location = new System.Drawing.Point(492, 132);
+        this.ButtonMariaDB.Size = new System.Drawing.Size(120, 50);
         this.ButtonMariaDB.TabIndex = 4;
         this.ButtonMariaDB.Click += new System.EventHandler(ButtonMariaDB_Click);
         //
         // ButtonMSSQL
         //
-        this.ButtonMSSQL.Text =  "Start";
-        this.ButtonMSSQL.Location = new System.Drawing.Point(400,232);
-        this.ButtonMSSQL.Size = new System.Drawing.Size(120,50);
+        this.ButtonMSSQL.Text = "Start";
+        this.ButtonMSSQL.Location = new System.Drawing.Point(492, 232);
+        this.ButtonMSSQL.Size = new System.Drawing.Size(120, 50);
         this.ButtonMSSQL.TabIndex = 5;
         this.ButtonMSSQL.Click += new System.EventHandler(ButtonMSSQL_Click);
         //
         // LabelMySQL
         //
-        this.LabelMySQL.AutoSize =  true;
-        this.LabelMySQL.Text =  "MySQL";
-        this.LabelMySQL.Location = new System.Drawing.Point(12,48);
-        this.LabelMySQL.Size = new System.Drawing.Size(79,30);
+        this.LabelMySQL.AutoSize = true;
+        this.LabelMySQL.Text = "MySQL";
+        this.LabelMySQL.Location = new System.Drawing.Point(12, 48);
+        this.LabelMySQL.Size = new System.Drawing.Size(79, 30);
         this.LabelMySQL.TabIndex = 6;
         //
         // LabelMariaDB
         //
-        this.LabelMariaDB.AutoSize =  true;
-        this.LabelMariaDB.Text =  "MariaDB";
-        this.LabelMariaDB.Location = new System.Drawing.Point(8,140);
-        this.LabelMariaDB.Size = new System.Drawing.Size(93,30);
+        this.LabelMariaDB.AutoSize = true;
+        this.LabelMariaDB.Text = "MariaDB";
+        this.LabelMariaDB.Location = new System.Drawing.Point(8, 140);
+        this.LabelMariaDB.Size = new System.Drawing.Size(93, 30);
         this.LabelMariaDB.TabIndex = 7;
         //
         // LabelMSSQL
         //
-        this.LabelMSSQL.AutoSize =  true;
-        this.LabelMSSQL.Text =  "MS SQL";
-        this.LabelMSSQL.Location = new System.Drawing.Point(12,240);
-        this.LabelMSSQL.Size = new System.Drawing.Size(86,30);
+        this.LabelMSSQL.AutoSize = true;
+        this.LabelMSSQL.Text = "MS SQL";
+        this.LabelMSSQL.Location = new System.Drawing.Point(12, 240);
+        this.LabelMSSQL.Size = new System.Drawing.Size(86, 30);
         this.LabelMSSQL.TabIndex = 8;
-     //
-     // form
-     //
-        this.Size = new System.Drawing.Size(580,400);
-        this.Text =  "SQL Services Manager";
+        //
+        // form
+        //
+        this.Size = new System.Drawing.Size(680, 450);
+        this.Text = "SQL Services Manager";
         this.Controls.Add(this.PictureBoxMYSQL);
         this.Controls.Add(this.PictureBoxMariaDB);
         this.Controls.Add(this.PictureBoxMSSQL);
@@ -128,9 +128,9 @@ partial class FormService
         ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMariaDB)).EndInit();
         ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMSSQL)).EndInit();
         this.ResumeLayout(false);
-    } 
+    }
 
-    #endregion 
+    #endregion
 
     private System.Windows.Forms.PictureBox PictureBoxMYSQL;
     private System.Windows.Forms.PictureBox PictureBoxMariaDB;
