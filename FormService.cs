@@ -18,17 +18,36 @@ public partial class FormService : Form
     }
     void LoadForm()
     {
-        if (mySQLService.Status == ServiceControllerStatus.Stopped)
-            ButtonMySQL.Text = "Start";
-        else ButtonMySQL.Text = "Stop";
-        //
-        if (mariaDBService.Status == ServiceControllerStatus.Stopped)
-            ButtonMariaDB.Text = "Start";
-        else ButtonMariaDB.Text = "Stop";
-        //
-        if (msSQLService.Status == ServiceControllerStatus.Stopped)
-            ButtonMSSQL.Text = "Start";
-        else ButtonMSSQL.Text = "Stop";
+        try
+        {
+            if (mySQLService.Status == ServiceControllerStatus.Stopped)
+                ButtonMySQL.Text = "Start";
+            else ButtonMySQL.Text = "Stop";
+        }
+        catch
+        {
+            ButtonMySQL.Enabled = false;
+        }
+        try
+        {
+            if (mariaDBService.Status == ServiceControllerStatus.Stopped)
+                ButtonMariaDB.Text = "Start";
+            else ButtonMariaDB.Text = "Stop";
+        }
+        catch
+        {
+            ButtonMariaDB.Enabled = false;
+        }
+        try
+        {
+            if (msSQLService.Status == ServiceControllerStatus.Stopped)
+                ButtonMSSQL.Text = "Start";
+            else ButtonMSSQL.Text = "Stop";
+        }
+        catch
+        {
+            ButtonMSSQL.Enabled = false;
+        }
     }
     private void ButtonMySQL_Click(System.Object? sender, System.EventArgs e)
     {
