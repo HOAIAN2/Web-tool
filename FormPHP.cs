@@ -110,7 +110,11 @@ public partial class FormPHP : Form
         try
         {
             if (!File.Exists(filePath)) File.Copy(this.currentPathExe.Replace("php.exe", "php.ini-development"), filePath);
-            Process.Start(@"notepad.exe", filePath);
+            ProcessStartInfo psi = new ProcessStartInfo(filePath)
+            {
+                UseShellExecute = true,
+            };
+            Process.Start(psi);
         }
         catch (Exception ex)
         {
